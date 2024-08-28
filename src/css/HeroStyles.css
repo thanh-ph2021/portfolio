@@ -53,7 +53,7 @@
     box-shadow: 0 0 20px 10px rgba(0, 0, 0, .05);
     overflow: hidden;
     position: relative;
-    z-index: 10;
+    z-index: 1;
     transition: .3s ease-in-out;
 }
 
@@ -123,7 +123,7 @@
 @media screen and (max-width: 950px) {
     .hero {
         height: auto;
-        padding: 5rem 0;
+        padding: 8rem 0 5rem 0;
     }
 
     .content {
@@ -148,6 +148,11 @@
     .skills {
         flex-direction: column;
         position: static;
+    }
+
+    .skills ul {
+        display: flex;
+        justify-content: center;
     }
 
     .skills p {

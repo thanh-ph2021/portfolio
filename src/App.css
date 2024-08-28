@@ -43,18 +43,26 @@ body {
   scroll-behavior: smooth;
 }
 
-h1, h4, p,
+h1,
+h4,
+p,
 a {
   color: #000;
   text-decoration: none;
 }
 
-li:hover{
+li:hover {
   color: rgba(20, 67, 155, 0.067)
 }
 
 ul {
   list-style-type: none;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
 }
 
 /************ Custom scrollbar ************/
@@ -63,22 +71,10 @@ ul {
   width: 8px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: #fff;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: #8e8e8e;
 }
-
-
-
-
-
-
-
-
-
-
-
-
