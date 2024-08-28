@@ -1,0 +1,22 @@
+.projects {
+    padding: 11rem 0;
+    background-color: #fff;
+}
+
+.projects-content {
+    text-align: center;
+}
+
+.projects-title {
+    text-align: left;
+}
+
+.projects-title p {
+    font-weight: 900;
+    color: green;
+}
+
+.projects-title h3 {
+    font-weight: 900;
+    margin: .5rem 0
+}
