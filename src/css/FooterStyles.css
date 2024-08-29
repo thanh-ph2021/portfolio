@@ -51,4 +51,8 @@ footer {
         padding: 3rem;
         row-gap: 2rem;
     }
+
+    footer h3 {
+        text-align: center;
+    }
 }

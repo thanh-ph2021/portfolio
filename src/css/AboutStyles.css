@@ -13,12 +13,13 @@
 
 .img-side {
     background-image: url(../assets/img/aboutImg.jpg);
-    border: 0px solid #2d2e32;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    background-position: 90%;
+    border: 0;
     border-radius: 5%;
     height: 20rem;
     width: 25rem;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, .1);
+    position: relative;
 }
 
 .text-side {
@@ -61,5 +62,15 @@
     .text-side {
         margin: 0 auto;
         max-width: 54rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .img-side {
+        background-image: url(../assets/img/aboutImg.jpg);
+        background-position: 90%;
+        border-radius: 5%;
+        height: 15rem;
+        width: 15rem;
     }
 }
