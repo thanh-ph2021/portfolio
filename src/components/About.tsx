@@ -1,5 +1,5 @@
 import '../css/AboutStyles.css'
-import '../App.css'
+import '../pages/App.css'
 
 export const About = () => {
     return (
