@@ -1,5 +1,5 @@
-import { FaGithub, FaCameraRetro, FaMobileAlt, FaReact, FaDatabase, FaCloud, FaSave, FaChartBar } from 'react-icons/fa';
-import { SiFirebase } from "react-icons/si"
+import { FaGithub, FaCameraRetro, FaMobileAlt, FaReact, FaDatabase, FaCloud, FaSave, FaChartBar, FaGoogleDrive, FaBolt } from 'react-icons/fa';
+import { SiFirebase, SiGooglegemini, SiRedux } from "react-icons/si"
 import { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -50,6 +50,24 @@ export const projects: ProjectModel[] = [
     numberScreenshot: 22,
     githubUrl: 'https://github.com/thanh-ph2021/dailytask',
     googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.dtaskapp',
+  },
+  {
+    id: 3,
+    bannerUrl: 'https://raw.githubusercontent.com/thanh-ph2021/AICaption/main/screenshots/cover-1.png',
+    title: 'Status & Bio AI Generator',
+    description: "Status & Bio AI Generator is an AI-powered app that helps you stand out with creative bios and moods-based statuses. Just pick a style — we’ll handle the words",
+    tech: [
+      { icon: <FaReact />, name: "React Native" }, // ✅ Giữ nguyên, rất phù hợp
+      { icon: <SiRedux />, name: "Redux" }, // ✅ Gợi ý thay FaDatabase bằng SiRedux (từ react-icons/si)
+      { icon: <FaGoogleDrive />, name: "Google Drive API" }, // ✅ Gợi ý thay FaCloud bằng FaGoogleDrive
+      { icon: <SiGooglegemini />, name: "Gemini API" }, // ✅ Dùng SiGooglegemini nếu muốn biểu tượng riêng, hoặc giữ FaChartBar
+      { icon: <FaSave />, name: "AsyncStorage" }, // ✅ Giữ FaSave nếu muốn nhấn mạnh "lưu trữ", hoặc thay bằng <FaHdd />
+      { icon: <FaBolt />, name: "Hot update" },
+    ],
+    screenshotUrl: `https://raw.githubusercontent.com/thanh-ph2021/AICaption/main/screenshots/`,
+    numberScreenshot: 17,
+    githubUrl: 'https://github.com/thanh-ph2021/AICaption',
+    googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.aicaption',
   },
 ]
 
