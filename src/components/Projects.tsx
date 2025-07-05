@@ -47,7 +47,7 @@ export const projects: ProjectModel[] = [
       { icon: <FaChartBar />, name: "Victory Native" },
     ],
     screenshotUrl: `https://raw.githubusercontent.com/thanh-ph2021/dailytask/main/screenshots/`,
-    numberScreenshot: 22,
+    numberScreenshot: 32,
     githubUrl: 'https://github.com/thanh-ph2021/dailytask',
     googlePlayUrl: 'https://play.google.com/store/apps/details?id=com.dtaskapp',
   },
